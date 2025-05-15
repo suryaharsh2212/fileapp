@@ -1,0 +1,60 @@
+# Node modules (if applicable)
+node_modules/
+
+# Expo / React Native cache and build files
+.expo/
+.expo-shared/
+*.expo
+*.expo-shared
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows user folders (common)
+AppData/
+Local Settings/
+OneDrive/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# npm debug log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code settings
+.vscode/
+
+# Android build folders (if applicable)
+android/app/build/
+android/.gradle/
+
+# iOS build folders (if applicable)
+ios/build/
+
+# Uploads or local storage you do not want in repo (optional)
+backend/uploads/
+# Ignore Windows system files and temp data
+AppData/
+Local Settings/
+*.tmp
+*.temp
+*.log
+*.odlgz
+*.aodl
+
+# Ignore browser cache and user data (Edge, Chrome)
+AppData/Local/Microsoft/Edge/
+AppData/Local/Microsoft/OneDrive/
+AppData/Local/Temp/
