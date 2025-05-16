@@ -1,21 +1,27 @@
 {
   "expo": {
-    "name": "giggle",
-    "slug": "giggle",
+    "name": "Giggleshare",
+    "slug": "giggleshare",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app2-icon.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "owner": "surya7488",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/app2-icon.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "whitesmoke"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "MEDIA_LIBRARY"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -28,7 +34,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "988bb166-f218-408d-b0aa-e22163692aff"
+        "projectId": "1f376de9-4b2e-48cc-badb-bd370401a2a5"
       }
     }
   }

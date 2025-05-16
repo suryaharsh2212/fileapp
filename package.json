@@ -16,6 +16,7 @@
     "axios": "^1.9.0",
     "crypto-js": "^4.2.0",
     "expo": "~53.0.9",
+    "expo-clipboard": "~7.1.4",
     "expo-dev-client": "~5.1.8",
     "expo-document-picker": "~13.1.5",
     "expo-media-library": "~17.1.6",
@@ -32,8 +33,7 @@
     "react-native-screens": "~4.10.0",
     "react-native-vector-icons": "^10.2.0",
     "socket.io-client": "^4.8.1",
-    "uuid": "^11.1.0",
-    "expo-clipboard": "~7.1.4"
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

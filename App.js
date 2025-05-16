@@ -30,8 +30,42 @@ export default function App() {
           tabBarInactiveTintColor: 'gray',
         })}
       >
-        <Tab.Screen name="Upload" component={UploadScreen} />
-        <Tab.Screen name="GetFile" component={GetFileScreen} />
+        {/* <Tab.Screen name="Upload" component={UploadScreen} /> */}
+        {/* <Tab.Screen name="GetFile" component={GetFileScreen} /> */}
+        <Tab.Screen
+          name="Upload"
+          component={UploadScreen}
+          options={{
+            title: 'Upload File', 
+            headerStyle: {
+              backgroundColor: '#4f46e5',
+              borderRadius: 5,
+             
+            
+            },
+            headerTintColor: '#fff', 
+            headerTitleStyle: {
+              fontWeight: 'bold',
+              fontSize: 20,
+            },
+          }}
+        />
+        <Tab.Screen
+          name="GetFile"
+          component={GetFileScreen}
+          options={{
+            title: 'Retrieve File',
+            headerStyle: {
+              backgroundColor: '#4f46e5',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+              fontWeight: 'bold',
+              fontSize: 20,
+            },
+          }}
+        />
+
       </Tab.Navigator>
     </NavigationContainer>
   );
